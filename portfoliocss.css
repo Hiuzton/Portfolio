@@ -1,0 +1,258 @@
+body {
+  background-color: #7CB9E8;
+}
+
+header nav {
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.details p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#secondDescrip  {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.image {
+  float: right;
+  height: auto;
+  width: 50%;
+  margin: 20px;
+  max-width: 300px;
+}
+
+
+#servicii {
+  width: 80%;
+  margin-top: 30px;
+  margin: 0 auto;
+  background-color: #fffacd;
+  padding: 20px;
+}
+
+.all_services {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fffacd;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.service {
+  text-align: center;
+  margin: 30px;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.all_services h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+#portfolio{
+  width: 80%;
+  margin-top: 30px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.block {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  flex-basis: calc(25% - 10px);
+  align-items: center;
+  margin: 10px;
+}
+
+.block .text img {
+  display: flex;
+  order: 0;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.block .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.block h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.block h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.block p {
+  font-size: 16px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.contact h1 {
+  margin: 20px;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact .info {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.contact .info .item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.contact .info .item h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.contact .info .item p {
+  font-size: 16px;
+}
+
+.contact form {
+  margin: 20px;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+
+.contact form input,
+.contact form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid black;
+}
+
+.contact form input[type="submit"] {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.footer_cont  img {
+  height: auto;
+  width: 40px;
+  margin: 10px;
+}
+
+
+
